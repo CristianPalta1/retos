@@ -1,0 +1,88 @@
+
+.AreaContenido{
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	margin-top : 50px;
+	max-height: 75vh;
+	overflow: auto;
+}
+
+.contenedorTodo{
+
+	margin: 5px 5px 5px 5px;
+	width: 128px;
+	background-color:#e6b52f;
+	align-self: center;
+	justify-self: center;
+}
+
+.contenedorImagen{
+	height: 102px;
+
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background:url("../Imagenes/fondoPokeBall.png") no-repeat center center
+}
+
+.imagen{
+
+	display: block;
+	max-height: 100%; 
+	max-width: 100%;
+	overflow : hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagenCargando{
+
+	display: block;
+	max-height: 400%; 
+	max-width: 400%;
+	overflow : hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.iconoPequeno{
+
+
+	max-height: 30px; 
+	max-width: 30px; 
+
+
+}
+
+.contenedorContenido{
+}
+
+.contenedorNombre{
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #c67100;
+	font-weight: bold;
+	font-family: sans-serif;
+	background-color: #eeea78;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;	
+}
+
+.contenedorPeso{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.contenedorAltura{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.contenedorId{
+	margin-right: 15px;
+	margin-left: 15px;
+}
